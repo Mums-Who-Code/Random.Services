@@ -4,7 +4,7 @@
 # Random.Services
 
 <p align="center">
-  <img width="25%" height="25%" src="https://github.com/Mums-Who-Code/Random.Services/blob/main/Random.jpg">
+  <img width="25%" height="25%" src="https://github.com/Mums-Who-Code/Random.Services/blob/main/Random.png">
 </p>
 
 # Introduction
