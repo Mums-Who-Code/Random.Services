@@ -21,7 +21,6 @@ namespace Random.Services.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddTransient<IDateTimeBroker, DateTimeBroker>();
 
