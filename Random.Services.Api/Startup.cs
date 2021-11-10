@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Random.Services.Api.Brokers.DateTimes;
 
 namespace Random.Services.Api
 {
@@ -22,6 +23,7 @@ namespace Random.Services.Api
         {
 
             services.AddControllers();
+            services.AddTransient<IDateTimeBroker, DateTimeBroker>();
 
             services.AddSwaggerGen(options =>
             {
