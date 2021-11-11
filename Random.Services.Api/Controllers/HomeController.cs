@@ -2,7 +2,6 @@
 // Copyright (c) MumsWhoCode. All rights reserved.
 // ------------------------------------------------
 
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RESTFulSense.Controllers;
 
