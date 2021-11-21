@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random.Services.Api", "Random.Services.Api\Random.Services.Api.csproj", "{28ADD1B1-BCD0-493C-BF11-B5368CDF9077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random.Services.Tests.Unit", "Random.Services.Tests.Unit\Random.Services.Tests.Unit.csproj", "{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random.Services.Tests.Unit", "Random.Services.Tests.Unit\Random.Services.Tests.Unit.csproj", "{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random.Services.Tests.Acceptance", "Random.Services.Tests.Acceptance\Random.Services.Tests.Acceptance.csproj", "{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
