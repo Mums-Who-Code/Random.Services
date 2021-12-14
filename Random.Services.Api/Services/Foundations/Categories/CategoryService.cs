@@ -15,7 +15,7 @@ namespace Random.Services.Api.Services.Foundations.Categories
         public CategoryService(IStorageBroker storageBroker) =>
             this.storageBroker = storageBroker;
 
-        public ValueTask<Category> AddCategoryAsync(Category category) =>
-            throw new System.NotImplementedException();
+        public async ValueTask<Category> AddCategoryAsync(Category category) =>
+            await this.storageBroker.InsertCategoryAsync(category);
     }
 }
