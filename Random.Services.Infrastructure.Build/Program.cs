@@ -52,7 +52,7 @@ namespace Random.Services.Infrastructure.Build
 
                                 TargetDotNetVersion = new TargetDotNetVersion
                                 {
-                                    DotNetVersion = "6.0.100",
+                                    DotNetVersion = "6.0.101",
                                     IncludePrerelease = true
                                 }
                             },
