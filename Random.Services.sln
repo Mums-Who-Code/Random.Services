@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random.Services.Api", "Rand
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random.Services.Tests.Unit", "Random.Services.Tests.Unit\Random.Services.Tests.Unit.csproj", "{208B3C54-8B30-4F1F-BACE-A8FCC3ED82DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Random.Services.Tests.Acceptance", "Random.Services.Tests.Acceptance\Random.Services.Tests.Acceptance.csproj", "{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random.Services.Tests.Acceptance", "Random.Services.Tests.Acceptance\Random.Services.Tests.Acceptance.csproj", "{FF2E5A8A-F4A4-4BA9-A3D4-0E1C2C92CEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
